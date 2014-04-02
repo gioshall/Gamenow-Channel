@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*RESET OVER*/
+
+body{
+	background: url(../img/bbg.jpg) #000 0 0 no-repeat;
+	background-size: cover;
+	font-family: helvetica,'LiHei Pro','微軟正黑體';
+
+}
+
+::selection{
+	background: #000;
+}
+
+.logo{
+	background: url(../img/gamenow_logo.png) 0 0 no-repeat;
+	width: 431px;
+	height: 70px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+.title{
+	width: 550px;
+	color:#fff;
+	text-align: center;
+	text-shadow: 0 1px 0px #000000;
+	position: relative;
+	top: 90px;
+	margin: auto;
+}
+
+.title h1{
+	font-size: 102px;
+	font-weight: normal;
+	line-height: 120px;	
+}
+
+.title h2{
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 40px;	
+}
+
+.portal{
+	text-align: center;
+	color:#fff;
+	margin-top: 150px;
+	text-shadow: 0 1px 0px #000000;
+	position: relative;
+	z-index: 5;
+}
+
+.portal h3{
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.portal h3 a{
+	color:#41b111;
+}
+.portal h3 a:hover{
+	color:#fff000;
+}
+
+.portal li{
+	display: inline-block;
+	width: 450px;
+	height: 270px;
+	background: rgba(255,255,255,0.9);
+	border-radius:20px ;
+	margin: 0 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color:#222;
+	text-shadow: 0 0 0 #000;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	cursor: pointer;
+	-webkit-transition:0.2s;
+	transition:0.2s;
+}
+
+.portal li:hover{
+	color:#fff;
+	background: #000;
+}
+
+.portal li span{
+	width: 445px;
+	height: 220px;
+	display: block;
+}
+
+.portal li.channel-yahoo span{
+	background: url(../img/channel_yahoo.png) 0 0 no-repeat;
+}
+
+.portal li.channel-yahoo:hover span{
+	background: url(../img/channel_yahoo.png) 0 -220px no-repeat;
+}
+
+.portal li.channel-cht span{
+	background: url(../img/channel_cht.png) 0 0 no-repeat;
+}
+
+.portal li.channel-cht:hover span{
+	background: url(../img/channel_cht.png) 0 -220px no-repeat;
+}
+
+.portal li.channel-yahoo:hover{
+	background: #fe9f00;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9f00), color-stop(100%,#df6000)); 
+    background: -webkit-linear-gradient(top, #fe9f00 0%,#df6000 100%); 
+}
+
+.portal li.channel-cht:hover{
+	background: #0073f4;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0073f4), color-stop(100%,#005ac0)); 
+    background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%); 
+}
+
+.footer-covers{
+	width: 100%;
+	height: 247px;
+	position: absolute;
+	bottom: 0;
+	background: url(../img/game_titles_cover.png) repeat-x;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 18px;
+	text-align: left;
+	width: 100%;
+	height: 56px;
+}
+
+.footer span b{
+    display: block;
+    color:#fff;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.footer .links{
+	font-size: 18px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+}
+
+
+.footer .links_about{
+    background:url(../img/ftr_icon01.png) 0 12px no-repeat;
+}
+
+.footer .links_dev{
+    background:url(../img/ftr_icon02.png) 0 12px no-repeat;
+}
+
+.footer .links_sup{
+    background:url(../img/ftr_icon03.png) 0 12px no-repeat;
+}
+
+.footer .links_fdb{
+    background:url(../img/ftr_icon04.png) 0 12px no-repeat;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 56px;
+    padding:0 50px 0 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .links a{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 56px;
+    padding:0 50px 0 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .links a:hover, .footer .links a:focus, .footer .links a.focus{
+    color: #ccc;
+}
+
+.footer span {
+    font-size: 12px;
+    display: block;
+    padding: 10px 0 0 30px;
+}
+
+@media screen and (max-height: 800px) {
+  .portal{
+	margin: 150px 0;
+  }
+  .portal li{
+	width: 375px;
+	height: 225px;
+  }
+  .portal li.channel-yahoo span,.portal li.channel-cht span{
+	width: 370px;
+	height: 180px;
+	background-size: 370px 358px;
+  }
+  .portal li.channel-yahoo:hover span,.portal li.channel-cht:hover span{
+	width: 370px;
+	height: 180px;
+	background-size: 370px 358px;
+	background-position: 0 -179px
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .logo{
+	width: 100%;
+	background-position: center;
+	left: 0;
+  }
+  .title{
+  	top: 140px;
+  }
+  .portal{
+  	width: 100%;
+  	padding: 0;
+  }
+  .portal ul{
+  	width: 100%;
+  }
+  .portal li{
+	width: 49.5%;
+	overflow: hidden;
+	height: 270px;
+	border-radius:0px ;
+	margin: 0;
+	color:#fff;
+  }
+  .portal li.channel-yahoo{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9f00), color-stop(100%,#df6000)); 
+    background: -webkit-linear-gradient(top, #fe9f00 0%,#df6000 100%);
+  }
+
+  .portal li.channel-cht{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0073f4), color-stop(100%,#005ac0)); 
+    background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%); 
+  }
+
+  .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
+  	width: 100%;
+  	background-position:center bottom;
+  }
+
+  .footer-covers{
+	width: 100%;
+	height: 247px;
+	position: absolute;
+	bottom: 0;
+	background: url(../img/game_titles_cover.png) bottom repeat-x;
+	background-size: 200%
+   }
+
+  .footer{
+  	position: relative;
+  	height: auto;
+  	margin-top: 30px;
+  }
+  .footer .links{
+	width: 100%;
+    right: 0px;
+    position: relative;
+  }
+  .footer .links a,.footer .links_fdb{
+	display: block;
+	float: none;
+	border-bottom: 1px rgba(255,255,255,0.1) solid;
+	padding-left: 90px;
+	background-position: 50px 12px
+  }
+  .footer span {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 210px 0 10px 0;
+  }
+}
