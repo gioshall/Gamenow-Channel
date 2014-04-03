@@ -408,8 +408,7 @@ body::after{
   .footer-covers{
 	width: 100%;
 	position: absolute;
-	bottom: 0;
-	display: none;
+	bottom: 300px;
    }
 
   .footer{
