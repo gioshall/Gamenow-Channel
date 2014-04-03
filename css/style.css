@@ -413,7 +413,7 @@ body::after{
    }
 
   .footer{
-  	position: relative;
+  	position: absolute;
   	bottom: 0;
   }
   .footer .links{
