@@ -176,7 +176,7 @@ body::after{
 	height: 247px;
 	position: absolute;
 	bottom: 0;
-	background: url(../img/game_titles_cover.png) repeat-x;
+	background: url(../img/game_titles_cover.png) center bottom repeat-x;
 }
 .footer{
 	position: absolute;
@@ -199,9 +199,8 @@ body::after{
 
 .footer .links{
 	font-size: 18px;
-    height: 28px;
     position: absolute;
-    right: 10px;
+    right: 80px;
 }
 
 
@@ -236,9 +235,70 @@ body::after{
     cursor: pointer;
 }
 
-.footer .links a:hover, .footer .links a:focus, .footer .links a.focus{
+.footer .links a:hover, .footer .links a:focus, .footer .links a.focus,.footer .links_fdb:hover{
     color: #ccc;
 }
+
+.footer .country{
+	position: absolute;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+	cursor: pointer;
+	height: 56px;
+	overflow: hidden;
+	width: 100px;
+	transition:0.2s;
+}
+
+.footer .country:hover{
+	height: 112px;
+	margin-top: -56px;
+	background: #000;
+}
+
+.footer .country ul{
+	position: absolute;
+	bottom: 0;
+}
+
+.footer .country li a{
+	padding: 0 0 0 45px;
+	margin: 0;
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+}
+
+.footer .country li a:hover{
+	color:#ccc;
+}
+
+.footer .country li{
+	position: relative;
+	line-height: 56px;
+	padding: 0;
+	margin: 0;
+}
+
+.footer .country li::before{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	box-shadow: 0 -1px 1px rgba(0,0,0,0.9) , 0 1px 0 rgba(255,255,255,0.3);
+	position: absolute;
+	content: '';
+	top: 14px;
+	left: 10px;
+}
+.footer .country li.tw::before{
+    background: url(../img/flags/taiwan.png) center no-repeat;
+}
+.footer .country li.us::before{
+    background: url(../img/flags/usa.png) center no-repeat;
+}
+
 
 .footer span {
     font-size: 12px;
@@ -254,6 +314,7 @@ body::after{
 
 ::-webkit-scrollbar {
     width: 6px;
+    height: 6px;
 }
 ::-webkit-scrollbar-track {
     background: transparent;
@@ -261,16 +322,19 @@ body::after{
 ::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,0.2);
     width: 6px;
+    height: 6px;
     border-radius:3px ;
 }
 ::-webkit-scrollbar-button {
     display: none;
 }
-
+::-webkit-scrollbar-corner {
+    background: #000;
+}
 
 @media screen and (max-height: 800px) {
   .portal{
-	margin: 150px 0;
+	margin: 130px 0;
   }
   .portal li{
 	width: 375px;
@@ -287,6 +351,9 @@ body::after{
 	background-size: 370px 358px;
 	background-position: 0 -179px
   }
+  .footer-covers{
+	background-size: 1280px
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -337,7 +404,6 @@ body::after{
 	height: 247px;
 	position: absolute;
 	bottom: 0;
-	background: url(../img/game_titles_cover.png) bottom repeat-x;
 	background-size: 200%
    }
 
