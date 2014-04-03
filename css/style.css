@@ -413,9 +413,8 @@ body::after{
    }
 
   .footer{
-  	position: relative;
+  	position: absolute;
   	height: auto;
-  	top: 50px;
   	bottom: 0;
   }
   .footer .links{
