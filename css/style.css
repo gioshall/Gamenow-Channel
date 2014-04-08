@@ -392,7 +392,15 @@ body::before{
   }
   .title{
   	top: 140px;
-  	font-size: 80px;
+  }
+  .title h1{
+	font-size: 80px;
+	line-height: 90px;	
+  }
+
+  .title h2{
+	font-size: 20px;
+	line-height: 25px;	
   }
   .portal{
   	width: 100%;
