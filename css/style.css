@@ -456,8 +456,7 @@ body::before{
   }
 }
 
-
-@media screen and (device-aspect-ratio: 40/71) {
+@media screen and (max-width: 480px) {
   body{
   	background-size:690px;
   	min-height: 970px;
