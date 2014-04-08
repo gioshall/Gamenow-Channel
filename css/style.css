@@ -455,6 +455,12 @@ body::before{
     padding: 10px 0;
   }
 }
+@media screen and (max-width: 960px) {
+  .logo{
+	background:#ff0000
+  }	
+}
+
 
 @media screen and (max-width: 640px) {
   body{
