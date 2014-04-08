@@ -479,10 +479,10 @@ body::before{
   }
   .portal li{
 	width: 49%;
-	font-size: 10px;
+	font-size: 7px;
   }
   .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
-  	background-size: 150%;
+  	background-size: 200%;
   	height: 150px;
   }
 }
