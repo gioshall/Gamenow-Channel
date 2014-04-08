@@ -376,7 +376,7 @@ body::before{
     }
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 1150px) {
   body{
   	background-size:1000px;
   	background-position: center top;
