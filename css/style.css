@@ -557,5 +557,6 @@ body::before{
   }
   .footer-covers{
 	bottom: 300px;
+	background-color: #ff0000
   }
 }
