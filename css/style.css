@@ -459,6 +459,7 @@ body::before{
 @media screen and (max-width: 568px){
   .logo{
 	background-size: 50%;
+	background-position: top center;
 	height: 50px;
   }
 
@@ -472,11 +473,20 @@ body::before{
 	line-height: 85px;	
   }
   .title h2{
-	font-size: 26px;
+	font-size: 25px;
 	line-height: 35px;	
   }
+
   .portal{
   	margin-top: 70px;
+  }
+  .portal h3{
+	font-size: 15px;
+	line-height: 30px;
+  }
+  .portal li{
+	font-size: 18px;
+	line-height: 30px;
   }
 }
 
