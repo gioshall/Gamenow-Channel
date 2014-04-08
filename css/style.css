@@ -501,4 +501,11 @@ body::before{
   .footer span{
     font-size: 11px;
   }
+  .footer .links a,.footer .links_fdb{
+	padding-left: 150px;
+	background-position: 50px 72px
+  }
+  .footer .country{
+  	display: none;
+  }
 }
