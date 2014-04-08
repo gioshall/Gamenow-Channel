@@ -462,13 +462,14 @@ body::before{
 
   .title h1{
 	font-size: 80px;
-	line-height: 90px;	
+	line-height: 90px;
+	color:#ff0000;	
   }
 
-  .title h2{
+  /*.title h2{
 	font-size: 30px;
 	line-height: 45px;	
-  }	
+  }	*/
 }
 
 
