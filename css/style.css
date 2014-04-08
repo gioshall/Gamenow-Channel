@@ -478,7 +478,7 @@ body::before{
 	line-height: 25px;
   }
   .portal li{
-	width: 47.5%;
+	width: 47%;
 	padding: 1%;
   }
   .portal li br{
@@ -487,6 +487,6 @@ body::before{
 
   .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
   	background-size: 160%;
-  	height: 140px;
+  	height: 120px;
   }
 }
