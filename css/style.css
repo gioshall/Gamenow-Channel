@@ -461,9 +461,14 @@ body::before{
 	background-size: 50%
   }
 
+  .title{
+	width: 100%;
+	top: 60px;
+  }
+
   .title h1{
-	font-size: 80px;
-	line-height: 90px;	
+	font-size: 75px;
+	line-height: 85px;	
   }
   .title h2{
 	font-size: 25px;
