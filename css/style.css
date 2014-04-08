@@ -455,7 +455,7 @@ body::before{
     padding: 10px 0;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1136px) {
   .logo{
 	background-size: 45%
   }
