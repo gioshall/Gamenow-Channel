@@ -484,6 +484,11 @@ body::before{
 	font-size: 15px;
 	line-height: 30px;
   }
+  
+  .portal li br{
+  	display: none;
+  }
+
   .portal li{
 	font-size: 16px;
 	line-height: 25px;
