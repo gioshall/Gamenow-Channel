@@ -498,7 +498,7 @@ body::before{
   .footer-covers{
 	background-size: 150%;
   }
-  .footer span b{
-    font-size: 9px;
+  .footer span{
+    font-size: 11px;
   }
 }
