@@ -535,9 +535,9 @@ body::before{
 	font-size: 20px;
 	line-height: 25px;	
   }
-  
+
   .portal{
-  	margin-bottom: 50px;
+  	margin-bottom: 0px;
   }
   
   .portal h3{
