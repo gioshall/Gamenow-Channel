@@ -484,14 +484,26 @@ body::before{
 	font-size: 15px;
 	line-height: 30px;
   }
-  
+
   .portal li br{
   	display: none;
   }
 
   .portal li{
-	font-size: 16px;
-	line-height: 25px;
+	font-size: 15px;
+	line-height: 23px;
+  }
+
+  .footer-covers{
+	background-size: 150%;
+  }
+  
+  .footer span{
+    font-size: 11px;
+  }
+
+  .footer .country{
+  	display: none;
   }
 }
 
@@ -527,25 +539,14 @@ body::before{
 	font-size: 15px;
 	line-height: 25px;
   }
-  .portal li br{
-  	display: none;
-  }
 
   .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
   	background-size: 155%;
   	height: 120px;
   }
-  .footer-covers{
-	background-size: 150%;
-  }
-  .footer span{
-    font-size: 11px;
-  }
+
   .footer .links a,.footer .links_fdb{
 	padding-left: 140px;
 	background-position: 100px 12px
-  }
-  .footer .country{
-  	display: none;
   }
 }
