@@ -458,7 +458,7 @@ body::before{
 
 @media screen and (max-width: 640px) {
   body{
-  	min-height: 1000px;
+  	min-height: 950px;
   }
 
   .logo{
@@ -497,5 +497,8 @@ body::before{
   }
   .footer-covers{
 	background-size: 150%;
+  }
+  .footer span b{
+    font-size: 11px;
   }
 }
