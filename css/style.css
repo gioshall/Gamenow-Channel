@@ -458,6 +458,7 @@ body::before{
 
 @media screen and (max-width: 640px) {
   body{
+  	background-size:700px;
   	min-height: 980px;
   }
 
