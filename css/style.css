@@ -477,6 +477,11 @@ body::before{
 	font-size: 15px;
 	line-height: 25px;
   }
+  .portal ul{
+	width: 100%;
+	position: absolute;
+	left: 0;
+  }
   .portal li{
 	width: 49%;
   }
