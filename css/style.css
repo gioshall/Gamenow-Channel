@@ -490,6 +490,8 @@ body::before{
   }
 
   .portal li{
+  	width: 45.5%;
+	padding: 2%;
 	font-size: 15px;
 	line-height: 23px;
   }
