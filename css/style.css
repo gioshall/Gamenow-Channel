@@ -455,3 +455,16 @@ body::before{
     padding: 10px 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .title h1{
+	font-size: 50px;
+	line-height: 60px;	
+  }
+
+  .title h2{
+	font-size: 13px;
+	line-height: 25px;	
+  }
+
+}
