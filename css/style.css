@@ -478,14 +478,15 @@ body::before{
 	line-height: 25px;
   }
   .portal li{
-	width: 49%;
+	width: 47.5%;
+	padding: 1%;
   }
   .portal li br{
   	display: none;
   }
 
   .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
-  	background-size: 180%;
-  	height: 150px;
+  	background-size: 160%;
+  	height: 140px;
   }
 }
