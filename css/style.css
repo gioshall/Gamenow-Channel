@@ -480,8 +480,8 @@ body::before{
   .portal li{
 	width: 47%;
 	padding: 1%;
-	font-size: 13px;
-	line-height: 22px;
+	font-size: 15px;
+	line-height: 25px;
   }
   .portal li br{
   	display: none;
