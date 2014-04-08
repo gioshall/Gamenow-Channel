@@ -456,6 +456,10 @@ body::before{
   }
 }
 @media screen and (max-width: 960px) {
+  .logo{
+	background-size: 50%
+  }
+
   .title h1{
 	font-size: 56px;
 	line-height: 60px;	
