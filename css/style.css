@@ -458,7 +458,7 @@ body::before{
 
 @media screen and (max-width: 640px) {
   body{
-  	min-height: 950px;
+  	min-height: 980px;
   }
 
   .logo{
@@ -502,8 +502,8 @@ body::before{
     font-size: 11px;
   }
   .footer .links a,.footer .links_fdb{
-	padding-left: 150px;
-	background-position: 50px 72px
+	padding-left: 140px;
+	background-position: 100px 12px
   }
   .footer .country{
   	display: none;
