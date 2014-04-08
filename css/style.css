@@ -493,6 +493,6 @@ body::before{
   }
   .footer-covers{
 	background-size: 150%;
-	height: 200px;
+	height: 50px;
   }
 }
