@@ -456,7 +456,7 @@ body::before{
   }
 }
 
-@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape){
+@media screen and (max-width: 568px){
   body{
   	background-size:680px;
   	min-height: 1100px;
@@ -515,7 +515,7 @@ body::before{
   }
 }
 
-@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation:portrait) {
+@media screen and (max-width: 480px) {
   body{
   	background-size:690px;
   	min-height: 920px;
