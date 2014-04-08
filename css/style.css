@@ -475,11 +475,11 @@ body::before{
   }
   .portal h3{
 	font-size: 15px;
-	line-height: 30px;
+	line-height: 35px;
   }
   .portal li{
-	width: 45%;
-	padding: 2%;
+	width: 47%;
+	padding: 1%;
 	font-size: 15px;
 	line-height: 25px;
   }
