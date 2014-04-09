@@ -55,15 +55,28 @@ body::after{
 	content: '';
 	-webkit-animation:mymove 1.2s forwards ease-in;
 	-ms-animation:mymove 1.2s forwards ease-in;
+	-moz-animation:mymove 1.2s forwards ease-in;
+	-o-animation:mymove 1.2s forwards ease-in;
 	animation:mymove 1.2s forwards ease-in;
 }
 
+
+@-webkit-keyframes mymove
+{
+    0%{}
+    100%{opacity: 0;}
+}
 @-ms-keyframes mymove
 {
     0%{}
     100%{opacity: 0;}
 }
-@-webkit-keyframes mymove
+@-moz-keyframes mymove
+{
+    0%{}
+    100%{opacity: 0;}
+}
+@-o-keyframes mymove
 {
     0%{}
     100%{opacity: 0;}
