@@ -54,9 +54,15 @@ body::after{
 	left: 0;
 	content: '';
 	-webkit-animation:mymove 1.2s forwards ease-in;
+	-ms-animation:mymove 1.2s forwards ease-in;
 	animation:mymove 1.2s forwards ease-in;
 }
 
+@-ms-keyframes mymove
+{
+    0%{}
+    100%{opacity: 0;}
+}
 @-webkit-keyframes mymove
 {
     0%{}
