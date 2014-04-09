@@ -527,7 +527,7 @@ body::before{
 
   .title{
 	width: 100%;
-	top: 150px;
+	top: 140px;
   }
   .title h1{
 	font-size: 56px;
@@ -537,6 +537,10 @@ body::before{
   .title h2{
 	font-size: 20px;
 	line-height: 25px;	
+  }
+
+  .portal{
+  	margin-top: 200px;
   }
 
   .portal h3{
