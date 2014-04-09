@@ -518,7 +518,7 @@ body::before{
 @media screen and (max-width: 320px) {
   body{
   	background-size:690px;
-  	min-height: 920px;
+  	min-height: 1130px;
   }
 
   .logo{
@@ -540,7 +540,7 @@ body::before{
   }
 
   .portal{
-  	margin-top: 200px;
+  	margin-top: 210px;
   }
 
   .portal h3{
