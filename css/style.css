@@ -54,9 +54,15 @@ body::after{
 	left: 0;
 	content: '';
 	-webkit-animation:mymove 1.2s forwards ease-in;
+	animation:mymove 1.2s forwards ease-in;
 }
 
 @-webkit-keyframes mymove
+{
+    0%{}
+    100%{opacity: 0;}
+}
+@keyframes mymove
 {
     0%{}
     100%{opacity: 0;}
@@ -167,13 +173,17 @@ body::after{
 .portal li.channel-yahoo:hover{
 	background: #fe9f00;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9f00), color-stop(100%,#df6000)); 
-    background: -webkit-linear-gradient(top, #fe9f00 0%,#df6000 100%); 
+        background: -webkit-linear-gradient(top, #fe9f00 0%,#df6000 100%);
+        background: -ms-linear-gradient(top, #fe9f00 0%,#df6000 100%);
+        background: linear-gradient(to bottom, #fe9f00 0%,#df6000 100%);
 }
 
 .portal li.channel-cht:hover{
 	background: #0073f4;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0073f4), color-stop(100%,#005ac0)); 
-    background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%); 
+        background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%);
+        background: -ms-linear-gradient(top, #0073f4 0%,#005ac0 100%);
+        background: linear-gradient(to bottom, #0073f4 0%,#005ac0 100%);
 }
 
 .footer-covers{
@@ -191,7 +201,9 @@ body::before{
 	bottom: 0;
 	content: '';
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(70%,rgba(0,0,0,1)));
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 70%);
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 70%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
 }
 
 .footer{
@@ -412,11 +424,15 @@ body::before{
   .portal li.channel-yahoo{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9f00), color-stop(100%,#df6000)); 
     background: -webkit-linear-gradient(top, #fe9f00 0%,#df6000 100%);
+    background: -ms-linear-gradient(top, #fe9f00 0%,#df6000 100%);
+    background: linear-gradient(to bottom, #fe9f00 0%,#df6000 100%);
   }
 
   .portal li.channel-cht{
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0073f4), color-stop(100%,#005ac0)); 
-    background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0073f4), color-stop(100%,#005ac0)); 
+    background: -webkit-linear-gradient(top, #0073f4 0%,#005ac0 100%);
+    background: -ms-linear-gradient(top, #0073f4 0%,#005ac0 100%);
+    background: linear-gradient(to bottom, #0073f4 0%,#005ac0 100%);
   }
 
   .portal li.channel-yahoo span,.portal li.channel-yahoo:hover span,.portal li.channel-cht span,.portal li.channel-cht:hover span{
