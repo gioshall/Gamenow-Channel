@@ -518,7 +518,7 @@ body::before{
 @media screen and (max-width: 320px) {
   body{
   	background-size:690px;
-  	min-height: 1070px;
+  	min-height: 1060px;
   }
 
   .logo{
