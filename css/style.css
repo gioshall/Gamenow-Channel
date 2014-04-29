@@ -827,7 +827,10 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 40px;
+	line-height: 50px;
+  }
+  .devices ul li{
+	width: 100%;
   }
 }
