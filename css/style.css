@@ -881,12 +881,12 @@ body.about-cht::after,body.about-cht::before{
 	width: 100%;
   }
   .devices ol{
-  	border-bottom: 1px #acacac solid;
+  	border:0px;
   	width: 95%;
   	padding-left: 5%;
   }
   .devices ol li{
   	width: 100%;
-	font-size: 9px;
+	font-size: 8px;
   }
 }
