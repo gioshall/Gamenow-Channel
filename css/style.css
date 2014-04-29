@@ -811,3 +811,10 @@ body.about-cht::after,body.about-cht::before{
 	padding: 0;
 	display: inline-block;
 }
+
+@media screen and (max-width: 360px) {
+	.joystick .des,.devices{
+		width: 100%;
+	}
+
+}
