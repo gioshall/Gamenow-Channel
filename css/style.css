@@ -813,8 +813,21 @@ body.about-cht::after,body.about-cht::before{
 }
 
 @media screen and (max-width: 360px) {
-	.joystick .des,.devices{
-		width: 100%;
-	}
+  .joystick .des,.devices{
+	width: 100%;
+  }
+  .title-cht{
+	width: 100%;
+	line-height: 30px;
+	top: 110px;
+  }
 
+  .title-cht h2{
+	font-size: 15px;
+  }
+
+  .title-cht h1{
+	font-size: 20px;
+	line-height: 30px;
+  }
 }
