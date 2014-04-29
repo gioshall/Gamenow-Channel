@@ -832,6 +832,8 @@ body.about-cht::after,body.about-cht::before{
   }
   .joystick{
   	top: 180px;
+  	background-size: 90%;
+  	background-position: top center;
   }
   .joystick .des{
 	width: 90%;
@@ -845,7 +847,7 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .devices{
-	width: 96%;
+	width: 90%;
   }
   .title-cht{
 	width: 100%;
