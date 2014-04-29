@@ -877,6 +877,10 @@ body.about-cht::after,body.about-cht::before{
   .devices ul li img{
 	width: 100%;
   }
+  .devices ol{
+  	width: 95%;
+  	padding-left: 5%;
+  }
   .devices ol li{
 	font-size: 11px;
   }
