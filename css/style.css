@@ -836,7 +836,8 @@ body.about-cht::after,body.about-cht::before{
   	background-position: top center;
   }
   .joystick .des{
-	width: 90%;
+	width: 86%;
+	padding: 2%;
 	font-size: 11px;
 	line-height: 16px;
 	text-align: left;
@@ -847,10 +848,15 @@ body.about-cht::after,body.about-cht::before{
   	display: none;
   }
 
+  .cover-wall{
+  	display: none;
+  }
+
   .devices{
 	width: 90%;
 	margin-top: 600px;
   }
+
   .title-cht{
 	width: 100%;
 	line-height: 30px;
