@@ -893,9 +893,12 @@ body.about-cht::after,body.about-cht::before{
   .devices ul li:nth-child(4),.devices ul li:nth-child(5){
   	margin: 0 10px;
   }
+  .footer-cht span{
+  	padding:10px 0 0 10%;
+  }
   .footer-cht ul{
 	position: relative;
-	left: 0;
+	left: 10%;
 	margin: 0;
   }
 
