@@ -814,8 +814,6 @@ body.about-cht::after,body.about-cht::before{
 
 @media screen and (max-width: 380px) {
   body.about-cht{
-  	background-size: 1000px;
-  	background-position: top center;
   }
 
   .logo-gn{
@@ -840,7 +838,7 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 11px;
 	line-height: 16px;
 	text-align: left;
-	margin-top: 250px;
+	margin-top: 350px;
   }
 
   .joystick .des br{
