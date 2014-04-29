@@ -888,5 +888,6 @@ body.about-cht::after,body.about-cht::before{
   .devices ol li{
   	width: 100%;
 	font-size: 8px;
+	line-height: 12px;
   }
 }
