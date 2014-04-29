@@ -899,6 +899,7 @@ body.about-cht::after,body.about-cht::before{
   }
   .footer-cht ul{
 	position: relative;
+	display: none;
 	left: 2%;
 	margin: 0;
   }
