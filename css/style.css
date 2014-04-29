@@ -872,6 +872,6 @@ body.about-cht::after,body.about-cht::before{
 	line-height: 55px;
   }
   .devices ul li{
-	width: 100%;
+	width: 33%;
   }
 }
