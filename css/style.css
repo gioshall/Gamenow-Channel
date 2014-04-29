@@ -890,4 +890,7 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 8px;
 	line-height: 12px;
   }
+  .devices ol li:nth-child(4),.devices ol li:nth-child(5){
+  	margin: 0 20px;
+  }
 }
