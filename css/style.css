@@ -390,6 +390,7 @@ body::before{
 	background-position: center;
 	left: 0;
   }
+
   .title{
   	top: 140px;
   }
@@ -566,4 +567,212 @@ body::before{
   .footer-covers{
 	bottom: 285px;
   }
+}
+
+/* cht page */
+
+body.about-cht{
+	background: url(../img/cht_bg.jpg) #000 0 0 no-repeat;
+	background-size: cover;
+}
+
+body.about-cht::after,body.about-cht::before{
+	display: none;
+}
+
+.logo-gn{
+	background: url(../img/gamenow_logo.png) 20px 15px rgba(0,0,0,0.7) no-repeat;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.logo-cht{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 289px;
+	height: 74px;
+	background: url(../img/logo-cht.png) 0 0 no-repeat;
+}
+
+.title-cht{
+	width: 580px;
+	color:#fff;
+	line-height: 50px;
+	text-align: center;
+	text-shadow: 0 1px 0px #000000;
+	position: relative;
+	top: 110px;
+	margin: auto;
+	z-index: 10;
+}
+
+.title-cht h2{
+	font-size: 30px;
+}
+
+.title-cht h1{
+	font-size: 80px;
+	line-height: 120px;
+}
+
+.title-cht h2 span{
+   color:#000;
+   background: #fff;
+   text-shadow: 0 0 0 #fff;
+   padding:1px 5px;
+   border-radius:5px ;
+}
+
+.cover-wall{
+	width: 100%;
+	background: url(../img/game_title_wall.jpg) 0 0 repeat-x;
+	height: 180px;
+	position: absolute;
+	top: 350px;
+}
+
+.joystick{
+	background: url(../img/mobile.png) center 0 no-repeat;
+	width: 100%;
+	height: 666px;
+	position: absolute;
+	top: 230px;
+	text-align: center;
+	color:#fff;
+}
+
+.joystick .des{
+	font-size: 18px;
+	line-height: 24px;
+	width: 760px;
+    background:rgba(0,0,0,0.5);
+    margin:485px auto 0;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.store-link{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 150px;
+}
+
+.store-link li{
+	padding-left: 50px;
+}
+
+.store-link .store-apple,.store-link .store-google{
+	width: 150px;
+	height: 50px;
+	display: block;
+	border: 1px #ccc solid;
+	border-radius: 5px;
+	margin:5px auto
+}
+
+.store-link .store-apple{
+	background: url(../img/icon_appstore.png) 0 0 no-repeat;
+}
+
+.store-link .store-google{
+	background: url(../img/icon_googleplay.png) 0 0 no-repeat;
+}
+
+.store-link .store-hami{
+	background: url(../img/icon_hami.png) 0 0 no-repeat;
+	width: 106px;
+	height: 102px;
+	display: block;
+	margin:auto
+}
+
+.devices{
+	width: 1118px;
+	background: #fff;
+	position: relative;
+	margin:655px auto 0;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8)
+}
+
+.devices h3{
+	font-size: 20px;
+	line-height: 30px;
+	background: #ea5513;
+	padding: 0 10px;
+	border-radius: 5px;
+	display: inline-block;
+	color:#fff;
+	margin: 15px 35px;
+}
+
+.devices ul{
+	width: 100%;
+	border-top: 1px #acacac solid;
+	clear: both;
+	padding: 0;
+}
+.devices ul li{
+	width: 20%;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.devices ol{
+	border-top: 1px #acacac solid;
+	padding: 10px 0 10px 15%;
+	margin: 10px 0;
+	width: 85%;
+}
+
+.devices ol li{
+	display: block;
+	font-size: 14px;
+	line-height: 23px;
+	color:#666;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	list-style-type:disc;
+}
+
+.footer-cht{
+	position: relative;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 18px;
+	text-align: left;
+	width: 100%;
+	height: 65px;
+	z-index: 1;
+	margin-top: 25px;
+	border-top: 1px rgba(255,255,255,0.2) solid;
+}
+.footer-cht span {
+    font-size: 12px;
+    display: block;
+    padding: 15px 0 0 30px;
+}
+
+.footer-cht ul{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	margin: 0;
+}
+
+.footer-cht li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
