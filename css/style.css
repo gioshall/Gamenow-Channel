@@ -871,6 +871,9 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 48px;
 	line-height: 55px;
   }
+  .devices ul{
+  	text-align: center;
+  }
   .devices ul li{
 	width: 33%;
   }
@@ -883,7 +886,6 @@ body.about-cht::after,body.about-cht::before{
   }
   .devices ol li{
   	width: 100%;
-	font-size: 7px;
-	background: #ccc;
+	font-size: 11px;
   }
 }
