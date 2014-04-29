@@ -813,8 +813,25 @@ body.about-cht::after,body.about-cht::before{
 }
 
 @media screen and (max-width: 360px) {
-  .joystick .des,.devices{
-	width: 100%;
+  .logo-gn{
+	background-size: 50%;
+	background-position: 5px 5px;
+	height: 90px;
+  }
+
+  .logo-cht{
+	width: 50%;
+	height: 74px;
+	background-size: 100%;
+  }
+  .joystick .des{
+	width: 90%;
+	font-size: 11px;
+	line-height: 16px;
+  }
+  .devices{
+	width: 96%;
+	margin: 2%;
   }
   .title-cht{
 	width: 100%;
