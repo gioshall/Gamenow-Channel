@@ -883,5 +883,6 @@ body.about-cht::after,body.about-cht::before{
   }
   .devices ol li{
 	font-size: 7px;
+	background: #ccc;
   }
 }
