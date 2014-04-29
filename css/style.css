@@ -894,11 +894,11 @@ body.about-cht::after,body.about-cht::before{
   	margin: 0 10px;
   }
   .footer-cht span{
-  	padding:10px 0 0 10%;
+  	padding:10px 0 0 2%;
   }
   .footer-cht ul{
 	position: relative;
-	left: 10%;
+	left: 2%;
 	margin: 0;
   }
 
