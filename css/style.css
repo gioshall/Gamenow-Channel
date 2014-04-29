@@ -820,7 +820,7 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .logo-cht{
-	width: 50%;
+	width: 40%;
 	height: 74px;
 	background-size: 100%;
   }
@@ -836,7 +836,7 @@ body.about-cht::after,body.about-cht::before{
   .title-cht{
 	width: 100%;
 	line-height: 30px;
-	top: 110px;
+	top: 300px;
   }
 
   .title-cht h2{
