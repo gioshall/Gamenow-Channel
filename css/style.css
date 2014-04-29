@@ -832,7 +832,7 @@ body.about-cht::after,body.about-cht::before{
   }
   .joystick{
   	top: 180px;
-  	background-size: 90%;
+  	background-size: 800px;
   	background-position: top center;
   }
   .joystick .des{
