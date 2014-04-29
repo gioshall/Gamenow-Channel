@@ -812,11 +812,17 @@ body.about-cht::after,body.about-cht::before{
 	display: inline-block;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
+  body.about-cht{
+  	background-size: 800px;
+  	background-position: top center;
+  }
+
   .logo-gn{
 	background-size: 50%;
 	background-position: 5px 5px;
-	height: 90px;
+	height: 50px;
+	z-index: 5;
   }
 
   .logo-cht{
@@ -824,19 +830,27 @@ body.about-cht::after,body.about-cht::before{
 	height: 74px;
 	background-size: 100%;
   }
+  .joystick{
+  	top: 180px;
+  }
   .joystick .des{
 	width: 90%;
 	font-size: 11px;
 	line-height: 16px;
+	text-align: left;
   }
+
+  .joystick .des br{
+  	display: none;
+  }
+
   .devices{
 	width: 96%;
-	margin: 2%;
   }
   .title-cht{
 	width: 100%;
 	line-height: 30px;
-	top: 300px;
+	top: 60px;
   }
 
   .title-cht h2{
@@ -844,8 +858,8 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 48px;
+	line-height: 55px;
   }
   .devices ul li{
 	width: 100%;
