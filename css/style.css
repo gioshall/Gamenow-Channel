@@ -895,11 +895,11 @@ body.about-cht::after,body.about-cht::before{
   }
   .footer-cht span{
   	padding:10px 0 0 2%;
-  	font-size: 10px;
+  	font-size: 11px;
   }
   .footer-cht ul{
 	position: relative;
-	display: none;
+	width: 98%;
 	left: 2%;
 	margin: 0;
   }
