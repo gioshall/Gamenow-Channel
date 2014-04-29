@@ -882,6 +882,7 @@ body.about-cht::after,body.about-cht::before{
   	padding-left: 5%;
   }
   .devices ol li{
+  	width: 100%;
 	font-size: 7px;
 	background: #ccc;
   }
