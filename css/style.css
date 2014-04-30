@@ -889,6 +889,17 @@ body.about-cht::after,body.about-cht::before{
   	padding:10px 0 0 2%;
   	font-size: 11px;
   }
+  .footer-cht ul{
+	width: 40%;
+  }
+
+  .footer-cht li{
+	width: 33%;
+	display: inline-block;
+  }
+  .footer-cht li img{
+  	width: 100%;
+  }
 }
 
 @media screen and (max-width: 360px) {
