@@ -729,6 +729,7 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .joystick .ani-batman img{
+	position: relative;
 	width: 858px;
 	height: 454px;
 	-webkit-animation:ani-bm 1.6s infinite;
