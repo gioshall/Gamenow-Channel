@@ -821,13 +821,13 @@ body.about-cht::after,body.about-cht::before{
   .logo-gn{
 	background-size: 50%;
 	background-position: 5px 5px;
-	height: 40px;
+	height: 60px;
 	z-index: 5;
   }
 
   .logo-cht{
 	width: 40%;
-	height: 74px;
+	height: 60px;
 	background-size: 100%;
   }
   .joystick{
@@ -838,14 +838,10 @@ body.about-cht::after,body.about-cht::before{
   .joystick .des{
 	width: 86%;
 	padding: 2%;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 16px;
 	text-align: left;
 	margin-top: 400px;
-  }
-
-  .joystick .des br{
-  	display: none;
   }
 
   .cover-wall{
@@ -868,6 +864,46 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
+	font-size: 55px;
+	line-height: 75px;
+  }
+  .devices ul{
+  	text-align: center;
+  }
+  .devices ul li img{
+	width: 100%;
+  }
+  .footer-cht span{
+  	padding:10px 0 0 2%;
+  	font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .logo-gn{
+	height: 40px;
+  }
+
+  .logo-cht{
+	height: 40px;
+  }
+  .joystick{
+  }
+  .joystick .des{
+	font-size: 11px;
+	line-height: 16px;
+  }
+
+  .joystick .des br{
+  	display: none;
+  }
+
+  .title-cht h2{
+	font-size: 15px;
+  }
+
+  .title-cht h1{
 	font-size: 48px;
 	line-height: 55px;
   }
@@ -876,9 +912,6 @@ body.about-cht::after,body.about-cht::before{
   }
   .devices ul li{
 	width: 33%;
-  }
-  .devices ul li img{
-	width: 100%;
   }
   .devices ol{
   	border:0px;
@@ -895,7 +928,6 @@ body.about-cht::after,body.about-cht::before{
   	margin: 0 10px;
   }
   .footer-cht span{
-  	padding:10px 0 0 2%;
   	font-size: 11px;
   }
   .footer-cht ul{
