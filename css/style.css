@@ -856,7 +856,7 @@ body.about-cht::after,body.about-cht::before{
   .title-cht{
 	width: 100%;
 	line-height: 30px;
-	top: 60px;
+	top: 80px;
   }
 
   .title-cht h2{
@@ -871,7 +871,13 @@ body.about-cht::after,body.about-cht::before{
   	text-align: center;
   }
   .devices ul li img{
+	width: 94%;
+	margin: 0 3%;
+  }
+  .devices ol li{
 	width: 100%;
+	font-size: 11px;
+	line-height: 16px;
   }
   .footer-cht span{
   	padding:10px 0 0 2%;
@@ -897,6 +903,10 @@ body.about-cht::after,body.about-cht::before{
 
   .joystick .des br{
   	display: none;
+  }
+
+  .title-cht{
+	top: 60px;
   }
 
   .title-cht h2{
