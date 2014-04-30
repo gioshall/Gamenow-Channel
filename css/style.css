@@ -653,7 +653,7 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .title-cht h1{
-	font-size: 80px;
+	font-size: 92px;
 	line-height: 120px;
 }
 
@@ -827,10 +827,6 @@ body.about-cht::after,body.about-cht::before{
 	display: inline-block;
 }
 @media screen and (max-width: 1024px) {
-  .title-cht h1{
-	font-size: 92px;
-	line-height: 120px;
-  }
 
   .joystick .des{
 	width: 86%;
