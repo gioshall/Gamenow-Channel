@@ -887,9 +887,8 @@ body.about-cht::after,body.about-cht::before{
   }
   .devices ol li{
   	width: 100%;
-	font-size: 8px;
+	font-size: 7.5px;
 	line-height: 12px;
-	letter-spacing: -0.5px;
   }
   .devices ul li:nth-child(4),.devices ul li:nth-child(5){
   	margin: 0 10px;
