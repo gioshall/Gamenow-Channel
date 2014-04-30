@@ -874,6 +874,12 @@ body.about-cht::after,body.about-cht::before{
 	width: 94%;
 	margin: 0 3%;
   }
+  .devices ol{
+  	border:0px;
+  	width: 98%;
+  	margin: 0;
+  	padding:0 0 0 2%;
+  }
   .devices ol li{
 	width: 100%;
 	font-size: 9px;
@@ -924,9 +930,7 @@ body.about-cht::after,body.about-cht::before{
 	width: 33%;
   }
   .devices ol{
-  	border:0px;
   	width: 95%;
-  	margin: 0;
   	padding:0 0 0 5%;
   }
   .devices ol li{
