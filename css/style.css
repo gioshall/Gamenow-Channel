@@ -674,13 +674,23 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .joystick{
-	background: url(../img/mobile.png) center 0 no-repeat;
+	background: url(../img/mobile-shadow.png) center 0 no-repeat;
 	width: 100%;
 	height: 666px;
 	position: absolute;
 	top: 230px;
 	text-align: center;
 	color:#fff;
+}
+
+.joystick::after{
+	position: absolute;
+	background: url(../img/mobile.png) center 0 no-repeat;
+	width: 100%;
+	height: 666px;
+	top: 0;
+	left: 0;
+	content: '';
 }
 
 .joystick .des{
@@ -690,7 +700,9 @@ body.about-cht::after,body.about-cht::before{
     background:rgba(0,0,0,0.5);
     margin:485px auto 0;
     padding: 10px;
-    border-radius: 5px
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
 }
 
 .store-link{
@@ -868,6 +880,10 @@ body.about-cht::after,body.about-cht::before{
   	background-size: 900px;
   	background-position: top center;
   }
+  .joystick::after{
+  	background-size: 900px;
+  	background-position: top center;
+  }
   .joystick .des{
 	font-size: 12px;
 	line-height: 16px;
@@ -948,8 +964,7 @@ body.about-cht::after,body.about-cht::before{
   .logo-cht{
 	height: 40px;
   }
-  .joystick{
-  }
+
   .joystick .des{
 	font-size: 11px;
 	line-height: 16px;
