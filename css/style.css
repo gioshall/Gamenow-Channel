@@ -885,10 +885,16 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 9px;
 	line-height: 15px;
   }
+
+  .footer-cht{
+  	height: 40px;
+  }
+  
   .footer-cht span{
   	padding:10px 0 0 2%;
   	font-size: 11px;
   }
+  
   .footer-cht ul{
 	width: 40%;
   }
