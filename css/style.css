@@ -710,6 +710,7 @@ body.about-cht::after,body.about-cht::before{
 	text-align: center;
 	width: 100%;
 	top: 150px;
+	z-index: 2;
 }
 
 .store-link li{
