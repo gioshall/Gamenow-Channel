@@ -609,6 +609,7 @@ body::before{
 body.about-cht{
 	background: url(../img/cht_bg.jpg) #000 0 0 no-repeat;
 	background-size: cover;
+	-webkit-transition:0.3s;
 }
 
 body.about-cht::after,body.about-cht::before{
