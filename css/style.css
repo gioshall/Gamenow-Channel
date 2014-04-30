@@ -876,8 +876,8 @@ body.about-cht::after,body.about-cht::before{
   }
   .devices ol li{
 	width: 100%;
-	font-size: 11px;
-	line-height: 16px;
+	font-size: 9px;
+	line-height: 15px;
   }
   .footer-cht span{
   	padding:10px 0 0 2%;
