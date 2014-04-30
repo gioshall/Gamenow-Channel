@@ -832,8 +832,8 @@ body.about-cht::after,body.about-cht::before{
 
 @media screen and (max-width: 768px){
 	.joystick .des{
-		font-size: 13px;
-		line-height: 21px;
+		font-size: 15px;
+		line-height: 25px;
 	}
 }
 
