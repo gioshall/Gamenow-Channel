@@ -864,7 +864,7 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
-	font-size: 60px;
+	font-size: 65px;
 	line-height: 75px;
   }
   .devices ul{
@@ -887,7 +887,7 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .footer-cht{
-  	height: 30px;
+  	height: 20px;
   }
   
   .footer-cht span{
