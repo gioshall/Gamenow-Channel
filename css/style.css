@@ -907,6 +907,11 @@ body.about-cht::after,body.about-cht::before{
 }
 
 @media screen and (max-width: 768px){
+	.joystick .ani-batman img{
+		left: 50%;
+		margin-left: -429px;
+	}
+
 	.joystick .des{
 		font-size: 15px;
 		line-height: 25px;
