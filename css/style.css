@@ -729,7 +729,9 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .joystick .ani-batman img{
-	position: relative;
+	position: absolute;
+	left: 50%;
+	margin-left: -429px;
 	width: 858px;
 	height: 454px;
 	-webkit-animation:ani-bm 1.6s infinite;
@@ -908,10 +910,6 @@ body.about-cht::after,body.about-cht::before{
 }
 
 @media screen and (max-width: 768px){
-	.joystick .ani-batman img{
-		left: 50%;
-		margin-left: -429px;
-	}
 
 	.joystick .des{
 		font-size: 15px;
