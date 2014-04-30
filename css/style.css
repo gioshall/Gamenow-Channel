@@ -713,10 +713,6 @@ body.about-cht::after,body.about-cht::before{
 	z-index: 2;
 }
 
-.store-link li{
-	padding-left: 50px;
-}
-
 .store-link .store-apple,.store-link .store-google{
 	width: 150px;
 	height: 50px;
