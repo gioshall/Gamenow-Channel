@@ -653,8 +653,9 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .title-cht h1{
-	font-size: 92px;
-	line-height: 120px;
+	font-size: 75px;
+	letter-spacing: 20px;
+	line-height: 100px;
 }
 
 .title-cht h2 span{
@@ -903,8 +904,9 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
-	font-size: 70px;
-	line-height: 75px;
+	font-size: 40px;
+	letter-spacing: 10px;
+	line-height: 50px;
   }
   .devices ul{
   	text-align: center;
@@ -976,7 +978,7 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .title-cht h1{
-	font-size: 48px;
+	font-size: 35px;
 	line-height: 55px;
   }
   .devices ul{
