@@ -681,6 +681,8 @@ body.about-cht::after,body.about-cht::before{
 	top: 230px;
 	text-align: center;
 	color:#fff;
+	-webkit-transition:0.3s;
+	transition:0.3s;
 }
 
 .joystick .des{
@@ -814,6 +816,11 @@ body.about-cht::after,body.about-cht::before{
 	display: inline-block;
 }
 @media screen and (max-width: 1024px) {
+  .title-cht h1{
+	font-size: 90px;
+	line-height: 120px;
+  }
+
   .joystick .des{
 	width: 86%;
 	padding: 2%;
