@@ -883,7 +883,7 @@ body.about-cht::after,body.about-cht::before{
   .devices ol{
   	border:0px;
   	width: 95%;
-  	padding-left:1% 5%;
+  	padding:1% 0 0 5%;
   }
   .devices ol li{
   	width: 100%;
