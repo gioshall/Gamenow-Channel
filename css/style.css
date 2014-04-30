@@ -609,7 +609,6 @@ body::before{
 body.about-cht{
 	background: url(../img/cht_bg.jpg) #000 0 0 no-repeat;
 	background-size: cover;
-	-webkit-transition:0.3s;
 }
 
 body.about-cht::after,body.about-cht::before{
@@ -645,6 +644,8 @@ body.about-cht::after,body.about-cht::before{
 	top: 110px;
 	margin: auto;
 	z-index: 10;
+	-webkit-transition:0.3s;
+	transition:0.3s;
 }
 
 .title-cht h2{
