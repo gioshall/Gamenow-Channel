@@ -811,6 +811,17 @@ body.about-cht::after,body.about-cht::before{
 	padding: 0;
 	display: inline-block;
 }
+@media screen and (max-width: 1024px) {
+  .joystick .des{
+	width: 86%;
+	padding: 2%;
+  }
+
+  .devices{
+	width: 90%;
+  }
+}
+
 
 @media screen and (max-width: 568px) {
   body.about-cht{
@@ -836,8 +847,6 @@ body.about-cht::after,body.about-cht::before{
   	background-position: top center;
   }
   .joystick .des{
-	width: 86%;
-	padding: 2%;
 	font-size: 12px;
 	line-height: 16px;
 	text-align: left;
@@ -849,7 +858,6 @@ body.about-cht::after,body.about-cht::before{
   }
 
   .devices{
-	width: 90%;
 	margin-top: 600px;
   }
 
