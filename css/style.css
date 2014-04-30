@@ -820,6 +820,14 @@ body.about-cht::after,body.about-cht::before{
   .devices{
 	width: 90%;
   }
+  .devices ul li img{
+	width: 94%;
+	margin: 0 3%;
+  }
+  .devices ol li{
+	font-size: 11px;
+	line-height: 16px;
+  }
 }
 
 
