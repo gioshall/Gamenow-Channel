@@ -16,7 +16,7 @@
 <div class="portal">
 	<h3>您現在可從以下的這些頻道暢玩<a href="https://ugamenowtw.uservoice.com/knowledgebase/articles/339609-%E8%AB%8B%E5%95%8Fgamenow%E6%98%AF%E6%80%8E%E6%A8%A3%E7%9A%84%E6%9C%8D%E5%8B%99-%E6%9C%8D%E5%8B%99%E5%85%A7%E5%AE%B9%E5%8C%85%E5%90%AB%E7%94%9A%E9%BA%BC">了解更多</a></h3>
 	<ul>
-		<li class="channel-yahoo" onclick="location.href='https://yahoo.ugamenow.com';"><span></span>Yahoo!奇摩與GameNow推出聯名遊戲首頁，<br>使用Yahoo帳號即可登入。</li>
+		<li class="channel-yahoo" id="channel-yahoo"><span></span>Yahoo!奇摩與GameNow推出聯名遊戲首頁，<br>使用Yahoo帳號即可登入。</li>
 		<li class="channel-cht" onclick="location.href='cht/'"><span></span>中華電信推出GameNow雲端遊戲服務，<br>凡是LTE行動上網用戶皆可輕鬆使用。</li>
 	</ul>
 </div>
@@ -36,7 +36,20 @@
     </div>
 	<span>Copyright © 2014 ubitus. 版權所有. 商標分別所屬於其擁有者<br>使用者條款與隱私權政策. 如有任何變更，請恕不另行通知.</span>
 </div>
-
+<script>
+window.onload = function() {
+	var device = navigator.userAgent.toLowerCase();
+	var mobile = device.match(/(iphone|ipod|ipad|android)/);
+	var yahooLink = document.getElementById('channel-yahoo');
+	yahooLink.addEventListener('click', function() {
+		if (mobile) {
+			location.href = 'https://yahoo.ugamenow.com/p/m/'
+		} else {
+			location.href = 'https://yahoo.ugamenow.com/'
+		}
+	}, false);
+};
+</script>
 <!-- UserVoice JavaScript SDK (only needed once on a page) -->
 <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='http://widget.uservoice.com/bD18DJxIZj5bku4FWPpw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
 

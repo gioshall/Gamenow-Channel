@@ -780,7 +780,7 @@ body.about-cht::after,body.about-cht::before{
 	z-index: 10;
 }
 
-.store-link .store-apple,.store-link .store-google{
+.store-link .store-apple,.store-link .store-google,.store-link .store-hami{
 	width: 150px;
 	height: 50px;
 	display: block;
@@ -789,8 +789,12 @@ body.about-cht::after,body.about-cht::before{
 	margin:5px auto
 }
 
-.store-link .store-apple{
+.store-link .store-apple {
 	background: url(../img/icon_appstore.png) 0 0 no-repeat;
+}
+
+.store-link .store-apple.comingsoon {
+	background: url(../img/icon_appstore-cs.png) 0 0 no-repeat;
 }
 
 .store-link .store-google{
@@ -799,10 +803,6 @@ body.about-cht::after,body.about-cht::before{
 
 .store-link .store-hami{
 	background: url(../img/icon_hami.png) 0 0 no-repeat;
-	width: 106px;
-	height: 102px;
-	display: block;
-	margin:auto
 }
 
 .devices{
