@@ -967,6 +967,12 @@ body.about-cht::after,body.about-cht::before{
 	margin-top: 400px;
   }
 
+  .store-link .store-apple,.store-link .store-google,.store-link .store-hami{
+	width: 120px;
+	height: 40px;
+	background-size: 100%;
+  }
+
   .cover-wall{
   	display: none;
   }
