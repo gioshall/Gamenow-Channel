@@ -950,6 +950,16 @@ body.about-cht::after,body.about-cht::before{
   	background-size: 900px;
   	background-position: top center;
   }
+  .joystick .ani-batman{
+  	height: 300px;
+  }
+
+  .joystick .ani-batman img{
+  	width: 660px;
+  	height: auto;
+  	margin-left: -330px;
+  }
+
   .joystick .des{
 	font-size: 12px;
 	line-height: 16px;
