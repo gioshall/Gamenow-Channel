@@ -966,8 +966,11 @@ body.about-cht::after,body.about-cht::before{
 	text-align: left;
 	margin-top: 400px;
   }
+  .store-link {
+  	top: 150px;
+  }
 
-  .store-link .store-apple,.store-link .store-google,.store-link .store-hami{
+  .store-link .store-apple,.store-link .store-apple.comingsoon,.store-link .store-google,.store-link .store-hami{
 	width: 120px;
 	height: 40px;
 	background-size: 100%;
