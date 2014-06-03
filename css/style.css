@@ -1056,7 +1056,7 @@ body.about-cht::after,body.about-cht::before{
   .devices ul{
   	text-align: center;
   }
-  .devices ul li{
+  .devices ul li,.devices ul li:last-child{
 	width: 33%;
   }
   .devices ol{
