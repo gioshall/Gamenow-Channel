@@ -904,6 +904,9 @@ body.about-cht::after,body.about-cht::before{
   .devices{
 	width: 90%;
   }
+  .devices ul li,.devices ul li:last-child{
+  	width: 16.6%;
+  }
   .devices ul li img{
 	width: 94%;
 	margin: 0 3%;
