@@ -832,12 +832,16 @@ body.about-cht::after,body.about-cht::before{
 	padding: 0;
 }
 .devices ul li{
-	width: 20%;
+	width: 16.6%;
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.devices ul li:last-child{
+	width: 17%;
 }
 
 .devices ol{
@@ -849,7 +853,7 @@ body.about-cht::after,body.about-cht::before{
 
 .devices ol li{
 	display: block;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 23px;
 	color:#666;
 	width: 100%;
@@ -857,6 +861,7 @@ body.about-cht::after,body.about-cht::before{
 	margin: 0;
 	text-align: left;
 	list-style-type:disc;
+	white-space: nowrap;
 }
 
 .footer-cht{
