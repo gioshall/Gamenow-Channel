@@ -780,13 +780,29 @@ body.about-cht::after,body.about-cht::before{
 	z-index: 10;
 }
 
-.store-link .store-apple,.store-link .store-google,.store-link .store-hami{
+.store-link .store-apple,.store-link .store-google,.store-link .store-hami,.store-link .store-purchase{
 	width: 150px;
 	height: 50px;
 	display: block;
 	border: 1px #ccc solid;
 	border-radius: 5px;
-	margin:5px auto
+	margin:5px auto;
+	line-height: 50px;
+	background-color: #41b111;
+	color:#fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.store-link .store-purchase {
+	margin-top: 65px;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px #000;
+}
+
+.store-link .store-purchase:hover {
+	background-color: #359809;   
 }
 
 .store-link .store-apple {
@@ -973,10 +989,15 @@ body.about-cht::after,body.about-cht::before{
   	top: 150px;
   }
 
-  .store-link .store-apple,.store-link .store-apple.comingsoon,.store-link .store-google,.store-link .store-hami{
+  .store-link .store-apple,.store-link .store-apple.comingsoon,.store-link .store-google,.store-link .store-hami,.store-link .store-purchase{
 	width: 120px;
 	height: 40px;
+	line-height: 40px;
 	background-size: 100%;
+  }
+
+  .store-link .store-purchase {
+  	margin-top: 45px;
   }
 
   .cover-wall{
