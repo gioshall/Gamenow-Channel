@@ -912,7 +912,7 @@ body.about-cht::after,body.about-cht::before{
 	display: inline-block;
 }
 
-.footer-cht li.footer-gplay {
+.footer-cht li .footer-gplay {
 	width: 60px;
 }
 
