@@ -789,6 +789,7 @@ body.about-cht::after,body.about-cht::before{
 	margin:5px auto;
 	line-height: 50px;
 	background-color: #41b111;
+	background-size: 150px 50px;
 	color:#fff;
 	font-size: 24px;
 	font-weight: bold;
@@ -910,6 +911,11 @@ body.about-cht::after,body.about-cht::before{
 	padding: 0;
 	display: inline-block;
 }
+
+.footer-cht li.footer-gplay {
+	width: 60px;
+}
+
 @media screen and (max-width: 1024px) {
 
   .joystick .des{
