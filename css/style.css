@@ -237,6 +237,12 @@ body::before{
 	z-index: 1;
 }
 
+.footer.fcht {
+	position: relative;
+	margin-top: 25px;
+	border-top: 1px rgba(255,255,255,0.2) solid;
+}
+
 .footer span b{
     display: block;
     color:#fff;
