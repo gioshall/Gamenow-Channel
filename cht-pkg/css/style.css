@@ -361,10 +361,6 @@ body {
 	background-position: center;
 	left: 0;
   }
-
-  .title-cht {
-  	top: 140px;
-  }
   
   .dis {
   	width: 100%;
@@ -404,20 +400,21 @@ body {
 	height: 50px;
   }
 
-  .title-cht {
+  .title-cht{
 	width: 100%;
+	line-height: 30px;
 	top: 80px;
   }
 
-  .title-cht h1 {
-	font-size: 76px;
-	line-height: 85px;	
-  }
-  .title-cht h2 {
-	font-size: 27px;
-	line-height: 35px;	
+  .title-cht h2{
+	font-size: 15px;
   }
 
+  .title-cht h1{
+	font-size: 60px;
+	letter-spacing: 10px;
+	line-height: 70px;
+  }
   
   .footer span {
     font-size: 10px;
@@ -433,19 +430,17 @@ body {
 	background-size: 75%
   }
 
-  .title-cht {
-	width: 100%;
-	top: 140px;
+  .title-cht{
+	top: 60px;
   }
 
-  .title-cht h1 {
-	font-size: 56px;
-	line-height: 60px;	
+  .title-cht h2{
+	font-size: 15px;
   }
 
-  .title-cht h2 {
-	font-size: 20px;
-	line-height: 25px;	
+  .title-cht h1{
+	font-size: 40px;
+	line-height: 55px;
   }
 
   .footer .links a,.footer .links_fdb {
