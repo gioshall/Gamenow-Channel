@@ -545,12 +545,8 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-  .logo{
-	background-size: 75%
-  }
-
-  .title-cht{
-	top: 60px;
+  .header .logo {
+	width: 70%;
   }
 
   .title-cht h2{
@@ -560,6 +556,33 @@ body {
   .title-cht h1{
 	font-size: 40px;
 	line-height: 55px;
+  }
+
+  .pkg-price {
+  	height: 870px;
+  }
+
+  .pkg-price li {
+  	height: 420px;
+  }
+
+  .pkg-price li.prc99 {
+  	top: 440px;
+  }
+
+  .pkg-price li h2 {
+  	top: 230px;
+  	font-size: 24px;
+  }
+
+  .dis h3 {
+  	display: block;
+  	text-align: center;
+  }
+
+  .dis p {
+  	font-size: 19px;
+  	line-height: 27px;
   }
 
   .footer .links a,.footer .links_fdb {
