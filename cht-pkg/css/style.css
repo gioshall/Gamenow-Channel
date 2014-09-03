@@ -140,7 +140,7 @@ body {
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(80%,transparent), color-stop(100%,rgba(0,0,0,0.3)));
 }
 
-.pkg-price li.prc149 .game-cover img{
+.pkg-price li.prc149 .game-cover img {
 	margin: 266px -3px 30px -3px;
 	width: 77px;
 	height: 105px;
@@ -354,23 +354,42 @@ body {
 	display: none !important;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
 
   .logo {
 	width: 100%;
 	background-position: center;
 	left: 0;
   }
+
+  .pkg-price li {
+	width: 45%;
+	height: 570px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 5px;
+	overflow: hidden;
+	box-shadow: 0 3px 0px rgba(40,120,5,.9);
+	background-size: 100% auto !important;
+	position: relative;
+  }
+
+  .pkg-price li.prc149 .game-cover img {
+	margin: 266px -14px 30px -2px;
+	transform: perspective(400px) rotateY(30deg);
+    transform-origin: 0% 30%;
+    -webkit-transform: perspective(400px) rotateY(30deg);
+    -webkit-transform-origin: 0% 30%;
+  }
   
   .dis {
-  	width: 100%;
+  	width: 90%;
   }
 
   .footer {
-  	position: absolute;
-  	height: auto;
-  	bottom: 0;
+  	height: 285px;
   }
+
   .footer .links {
 	width: 100%;
     right: 0px;
@@ -392,18 +411,90 @@ body {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .pkg-price li {
+  	height: 550px;
+  	position: relative;
+  }
+
+  .pkg-price li .game-cover {
+  	position: absolute;
+  	bottom: 210px;
+  	width: 100%;
+  }
+  
+  .pkg-price li.prc99 .game-cover img {
+	width: 22%;
+	height: auto;
+	margin: 0 ;	
+  }
+
+  .pkg-price li.prc149 .game-cover {
+  	bottom: 170px;
+  }
+  
+  .pkg-price li.prc149 .game-cover img {
+	width: 25%;
+	height: auto;
+	margin: -10px -10px 0 0;	
+  }
+
+  .pkg-price li h2 {
+  	position: absolute;
+  	top: 380px;
+  	width: 96%;
+  	margin: 0 2%;
+  	font-size: 22px;
+  }
+
+  .pkg-price li .button {
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0;
+	margin:0;
+	height: 80px;
+	line-height: 80px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .pkg-price li .game-cover {
+  	bottom: 250px;
+  }
+  
+  .pkg-price li.prc149 .game-cover {
+  	bottom: 210px;
+  }
+
+  .pkg-price li h2 {
+  	top: 350px;
+  }
+
+}
+
 @media screen and (max-width: 568px){
 
-  .logo {
-	background-size: 50%;
-	background-position: top center;
-	height: 50px;
+  .header .logo {
+	background-size: 60%;
+	background-position: 3px center;
+	height: 60px;
+  }
+
+  .header .logo-cht{
+	width: 40%;
+	height: 60px;
+	background-size: 100%;
+	background-position: right center;
   }
 
   .title-cht{
 	width: 100%;
 	line-height: 30px;
-	top: 80px;
+	top: 0px;
+	margin: 50px 0;
   }
 
   .title-cht h2{
@@ -416,6 +507,34 @@ body {
 	line-height: 70px;
   }
   
+  .pkg-price {
+  	width: 95%;
+  	margin: 10px auto;
+  	position: relative;
+  	height: 1200px;
+  }
+
+  .pkg-price li {
+  	display: block;
+  	width: 100%;
+  	margin: 0;
+  }
+
+  .pkg-price li.prc99 {
+  	position: absolute;
+  	top: 570px;
+  }
+
+  .pkg-price li.prc99 .game-cover {
+  	bottom: 210px;
+  }
+
+  .pkg-price li.prc149 .game-cover img {
+	width: 15%;
+	height: auto;
+	margin: 0 -10px 0 0;	
+  }
+
   .footer span {
     font-size: 10px;
   }
