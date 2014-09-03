@@ -221,7 +221,7 @@ body {
 	line-height: 35px;
 }
 
-.footer{
+.footer {
 	color: #fff;
 	background: rgba(40,120,5,.9);
 	line-height: 18px;
@@ -234,33 +234,33 @@ body {
 }
 
 
-.footer span b{
+.footer span b {
     display: block;
     color:#fff;
     font-size: 13px;
     font-weight: normal;
 }
 
-.footer .links{
+.footer .links {
 	font-size: 18px;
     position: absolute;
     right: 80px;
 }
 
 
-.footer .links_about{
+.footer .links_about {
     background:url(../img/ftr_icon01.png) 0 12px no-repeat;
 }
 
-.footer .links_dev{
+.footer .links_dev {
     background:url(../img/ftr_icon02.png) 0 12px no-repeat;
 }
 
-.footer .links_sup{
+.footer .links_sup {
     background:url(../img/ftr_icon03.png) 0 12px no-repeat;
 }
 
-.footer .links_fdb{
+.footer .links_fdb {
     background:url(../img/ftr_icon04.png) 0 12px no-repeat;
     display: inline-block;
     color: #ffffff;
@@ -270,7 +270,7 @@ body {
     cursor: pointer;
 }
 
-.footer .links a{
+.footer .links a {
     display: inline-block;
     color: #ffffff;
     line-height: 56px;
@@ -279,11 +279,11 @@ body {
     cursor: pointer;
 }
 
-.footer .links a:hover, .footer .links a:focus, .footer .links a.focus,.footer .links_fdb:hover{
+.footer .links a:hover, .footer .links a:focus, .footer .links a.focus,.footer .links_fdb:hover {
     color: #ccc;
 }
 
-.footer .country{
+.footer .country {
 	position: absolute;
 	right: 0;
 	padding: 0;
@@ -296,18 +296,18 @@ body {
 	transition:0.2s;
 }
 
-.footer .country:hover{
+.footer .country:hover {
 	height: 112px;
 	margin-top: -56px;
-	background: #000;
+	background: rgba(0,0,0,0.2);
 }
 
-.footer .country ul{
+.footer .country ul {
 	position: absolute;
 	bottom: 0;
 }
 
-.footer .country li a{
+.footer .country li a {
 	padding: 0 0 0 45px;
 	margin: 0;
 	text-decoration: none;
@@ -315,7 +315,7 @@ body {
 	font-size: 18px;
 }
 
-.footer .country li a:hover{
+.footer .country li a:hover {
 	color:#ccc;
 }
 
@@ -326,7 +326,7 @@ body {
 	margin: 0;
 }
 
-.footer .country li::before{
+.footer .country li::before {
 	width: 28px;
 	height: 28px;
 	border-radius: 50%;
@@ -336,10 +336,10 @@ body {
 	top: 14px;
 	left: 10px;
 }
-.footer .country li.tw::before{
+.footer .country li.tw::before {
     background: url(../img/flags/taiwan.png) center no-repeat;
 }
-.footer .country li.us::before{
+.footer .country li.us::before {
     background: url(../img/flags/usa.png) center no-repeat;
 }
 
@@ -356,28 +356,31 @@ body {
 
 @media screen and (max-width: 1024px) {
 
-  .logo{
+  .logo {
 	width: 100%;
 	background-position: center;
 	left: 0;
   }
 
-  .title-cht{
+  .title-cht {
   	top: 140px;
   }
   
+  .dis {
+  	width: 100%;
+  }
 
-  .footer{
+  .footer {
   	position: absolute;
   	height: auto;
   	bottom: 0;
   }
-  .footer .links{
+  .footer .links {
 	width: 100%;
     right: 0px;
     position: relative;
   }
-  .footer .links a,.footer .links_fdb{
+  .footer .links a,.footer .links_fdb {
 	display: block;
 	float: none;
 	border-bottom: 1px rgba(255,255,255,0.1) solid;
@@ -395,32 +398,32 @@ body {
 
 @media screen and (max-width: 568px){
 
-  .logo{
+  .logo {
 	background-size: 50%;
 	background-position: top center;
 	height: 50px;
   }
 
-  .title-cht{
+  .title-cht {
 	width: 100%;
 	top: 80px;
   }
 
-  .title-cht h1{
+  .title-cht h1 {
 	font-size: 76px;
 	line-height: 85px;	
   }
-  .title-cht h2{
+  .title-cht h2 {
 	font-size: 27px;
 	line-height: 35px;	
   }
 
   
-  .footer span{
+  .footer span {
     font-size: 10px;
   }
 
-  .footer .country{
+  .footer .country {
   	display: none;
   }
 }
@@ -430,26 +433,26 @@ body {
 	background-size: 75%
   }
 
-  .title-cht{
+  .title-cht {
 	width: 100%;
 	top: 140px;
   }
 
-  .title-cht h1{
+  .title-cht h1 {
 	font-size: 56px;
 	line-height: 60px;	
   }
 
-  .title-cht h2{
+  .title-cht h2 {
 	font-size: 20px;
 	line-height: 25px;	
   }
 
-  .footer .links a,.footer .links_fdb{
+  .footer .links a,.footer .links_fdb {
 	padding-left: 140px;
 	background-position: 100px 12px
   }
-  .footer-covers{
+  .footer-covers {
 	bottom: 285px;
   }
 }
