@@ -434,9 +434,11 @@ body {
   }
   
   .pkg-price li.prc149 .game-cover img {
-	width: 25%;
+	width: 17%;
 	height: auto;
-	margin: -10px -10px 0 0;	
+	margin-left: -3px;
+	margin-right: -16px;
+
   }
 
   .pkg-price li h2 {
@@ -467,6 +469,12 @@ body {
   
   .pkg-price li.prc149 .game-cover {
   	bottom: 210px;
+  }
+
+  .pkg-price li.prc149 .game-cover img {
+	width: 25%;
+	height: auto;
+	margin: -10px -10px 0 0;	
   }
 
   .pkg-price li h2 {
