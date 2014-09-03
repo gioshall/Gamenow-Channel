@@ -117,6 +117,10 @@ body {
 	box-shadow: 0 3px 0px rgba(40,120,5,.9);
 }
 
+.pkg-price li a {
+	text-decoration: none;
+}
+
 .pkg-price li.prc99 {
 	background: url(../img/pkg-01.jpg) top center #fff no-repeat;
 }
@@ -149,11 +153,19 @@ body {
 	font-weight: bold;
 }
 
+.pkg-price li a:hover h2 {
+	color: #000;
+}
+
 .pkg-price li h2 small {
 	font-size: 18px;
 	line-height: 25px;
 	display: block;
 	color: #0096e4;
+}
+
+.pkg-price li a:hover h2 small {
+	color: #41b111;
 }
 
 .pkg-price li .button {
@@ -172,6 +184,272 @@ body {
 	background-color: #9c9c9c;
 }
 
+.pkg-price li.prc99 a:hover .button {
+	background-color: #666;
+}
+
 .pkg-price li.prc149 .button {
 	background-color: #41b111;
+}
+
+.pkg-price li.prc149 a:hover .button {
+	background-color: #278100;
+}
+
+.dis {
+	width: 1120px;
+	margin: auto;
+	color: #fff;
+	text-align: left;
+}
+
+.dis h3 {
+	font-size: 24px;
+	color: #278100;
+	line-height: 50px;
+	padding: 0 50px;
+	background-color: #fff;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.dis p {
+	display: block;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.footer{
+	color: #fff;
+	background: rgba(40,120,5,.9);
+	line-height: 18px;
+	text-align: left;
+	width: 100%;
+	height: 56px;
+	z-index: 1;
+	position: relative;
+	margin-top: 50px;
+}
+
+
+.footer span b{
+    display: block;
+    color:#fff;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.footer .links{
+	font-size: 18px;
+    position: absolute;
+    right: 80px;
+}
+
+
+.footer .links_about{
+    background:url(../img/ftr_icon01.png) 0 12px no-repeat;
+}
+
+.footer .links_dev{
+    background:url(../img/ftr_icon02.png) 0 12px no-repeat;
+}
+
+.footer .links_sup{
+    background:url(../img/ftr_icon03.png) 0 12px no-repeat;
+}
+
+.footer .links_fdb{
+    background:url(../img/ftr_icon04.png) 0 12px no-repeat;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 56px;
+    padding:0 50px 0 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .links a{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 56px;
+    padding:0 50px 0 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .links a:hover, .footer .links a:focus, .footer .links a.focus,.footer .links_fdb:hover{
+    color: #ccc;
+}
+
+.footer .country{
+	position: absolute;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+	cursor: pointer;
+	height: 56px;
+	overflow: hidden;
+	width: 100px;
+	transition:0.2s;
+}
+
+.footer .country:hover{
+	height: 112px;
+	margin-top: -56px;
+	background: #000;
+}
+
+.footer .country ul{
+	position: absolute;
+	bottom: 0;
+}
+
+.footer .country li a{
+	padding: 0 0 0 45px;
+	margin: 0;
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+}
+
+.footer .country li a:hover{
+	color:#ccc;
+}
+
+.footer .country li{
+	position: relative;
+	line-height: 56px;
+	padding: 0;
+	margin: 0;
+}
+
+.footer .country li::before{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	box-shadow: 0 -1px 1px rgba(0,0,0,0.9) , 0 1px 0 rgba(255,255,255,0.3);
+	position: absolute;
+	content: '';
+	top: 14px;
+	left: 10px;
+}
+.footer .country li.tw::before{
+    background: url(../img/flags/taiwan.png) center no-repeat;
+}
+.footer .country li.us::before{
+    background: url(../img/flags/usa.png) center no-repeat;
+}
+
+
+.footer span {
+    font-size: 12px;
+    display: block;
+    padding: 10px 0 0 30px;
+}
+
+#uvTab{
+	display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .logo{
+	width: 100%;
+	background-position: center;
+	left: 0;
+  }
+
+  .title-cht{
+  	top: 140px;
+  }
+  
+
+  .footer{
+  	position: absolute;
+  	height: auto;
+  	bottom: 0;
+  }
+  .footer .links{
+	width: 100%;
+    right: 0px;
+    position: relative;
+  }
+  .footer .links a,.footer .links_fdb{
+	display: block;
+	float: none;
+	border-bottom: 1px rgba(255,255,255,0.1) solid;
+	padding-left: 90px;
+	background-position: 50px 12px
+  }
+  .footer span {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 568px){
+
+  .logo{
+	background-size: 50%;
+	background-position: top center;
+	height: 50px;
+  }
+
+  .title-cht{
+	width: 100%;
+	top: 80px;
+  }
+
+  .title-cht h1{
+	font-size: 76px;
+	line-height: 85px;	
+  }
+  .title-cht h2{
+	font-size: 27px;
+	line-height: 35px;	
+  }
+
+  
+  .footer span{
+    font-size: 10px;
+  }
+
+  .footer .country{
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo{
+	background-size: 75%
+  }
+
+  .title-cht{
+	width: 100%;
+	top: 140px;
+  }
+
+  .title-cht h1{
+	font-size: 56px;
+	line-height: 60px;	
+  }
+
+  .title-cht h2{
+	font-size: 20px;
+	line-height: 25px;	
+  }
+
+  .footer .links a,.footer .links_fdb{
+	padding-left: 140px;
+	background-position: 100px 12px
+  }
+  .footer-covers{
+	bottom: 285px;
+  }
 }
