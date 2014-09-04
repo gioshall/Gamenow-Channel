@@ -37,7 +37,7 @@ table {
 
 body{
 	background: url(../img/bbg.jpg) #000 0 0 no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	font-family: helvetica,'LiHei Pro','Heiti TC','微軟正黑體';
 	min-height: 740px;
 	position: absolute;
@@ -614,7 +614,7 @@ body::before{
 
 body.about-cht{
 	background: url(../img/cht_bg.jpg) #000 0 0 no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 }
 
 body.about-cht::after,body.about-cht::before{
