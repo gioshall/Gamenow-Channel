@@ -415,7 +415,7 @@ body::before{
 
 @media screen and (max-width: 1024px) {
   body{
-  	background-size:1000px;
+  	background-size:1000px ;
   	background-position: center top;
   	position: absolute;
   	width: 100%;
@@ -1005,7 +1005,7 @@ body.about-cht::after,body.about-cht::before{
 	width: 120px;
 	height: 40px;
 	line-height: 40px;
-	background-size: 100%;
+	background-size: 120px 40px !important;
   }
 
   .store-link .store-purchase {
