@@ -850,10 +850,14 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 24px;
 	line-height: 50px;
 	width: 180px;
-	font-family: helvetica,'LiHei Pro','Heiti TC','微軟正黑體';
+	font-family: helvetica,'Hiragino Kaku Gothic ProN W3';
 	cursor: pointer;
 	box-shadow: 0 1px 3px rgba(0,0,0,.8);
 	text-decoration: none;
+}
+
+.redeembtn a:nth-of-type(2) {
+	background-color: #029d93;
 }
 
 .devices{
