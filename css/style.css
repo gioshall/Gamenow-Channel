@@ -714,15 +714,16 @@ body.about-cht::after,body.about-cht::before{
 }
 
 .joystick .des{
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 24px;
-	width: 760px;
+	width: 1098px;
     background:rgba(0,0,0,0.5);
     margin:485px auto 0;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     position: relative;
     z-index: 5;
+    text-align: left;
 }
 
 .joystick .ani-batman{
@@ -781,9 +782,13 @@ body.about-cht::after,body.about-cht::before{
 .store-link{
 	position: absolute;
 	text-align: center;
-	width: 100%;
-	top: 180px;
 	z-index: 10;
+	right: 15px;
+	top: 3px;
+}
+
+.store-link li {
+	display: inline-block;
 }
 
 .store-link .store-apple,.store-link .store-google,.store-link .store-hami,.store-link .store-purchase{
@@ -826,6 +831,29 @@ body.about-cht::after,body.about-cht::before{
 
 .store-link .store-hami{
 	background: url(../img/icon_hami.png) 0 0 no-repeat;
+}
+
+.redeembtn {
+	position: absolute;
+	width: 100%;
+	top: 260px;
+	z-index: 50;
+}
+
+.redeembtn a {
+	display: block;
+	margin: 8px auto;
+	border: 0;
+	border-radius: 5px;
+	background-color: #41b111;
+	color: #fff;
+	font-size: 24px;
+	line-height: 50px;
+	width: 180px;
+	font-family: helvetica,'LiHei Pro','Heiti TC','微軟正黑體';
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,.8);
+	text-decoration: none;
 }
 
 .devices{
@@ -927,10 +955,17 @@ body.about-cht::after,body.about-cht::before{
   .joystick .des{
 	width: 86%;
 	padding: 2%;
+	text-align: center;
+  }
+
+  .store-link{
+	position: relative;
+	top: 3px;
   }
 
   .devices{
 	width: 90%;
+	margin-top: 750px;
   }
   .devices ul li,.devices ul li:last-child{
   	width: 16.6%;
@@ -995,17 +1030,20 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 12px;
 	line-height: 16px;
 	text-align: left;
-	margin-top: 400px;
+	margin-top: 355px;
   }
+
+  .redeembtn {
+  	top: 160px;
+  }
+
   .store-link {
-  	top: 150px;
+  	margin: auto;
+  	right: auto;
   }
 
   .store-link .store-apple,.store-link .store-apple.comingsoon,.store-link .store-google,.store-link .store-hami,.store-link .store-purchase{
-	width: 120px;
-	height: 40px;
-	line-height: 40px;
-	background-size: 120px 40px !important;
+	margin: 0 2px;
   }
 
   .store-link .store-purchase {
@@ -1108,6 +1146,10 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 40px;
 	line-height: 55px;
   }
+  .devices {
+  	margin-top: 720px;
+  }
+
   .devices ul{
   	text-align: center;
   }
