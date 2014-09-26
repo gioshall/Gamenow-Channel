@@ -850,7 +850,7 @@ body.about-cht::after,body.about-cht::before{
 	font-size: 24px;
 	line-height: 50px;
 	width: 180px;
-	font-family: helvetica,'Hiragino Kaku Gothic ProN W3';
+	font-family: helvetica,'Hiragino Kaku Gothic ProN W3','微軟正黑體';
 	cursor: pointer;
 	box-shadow: 0 1px 3px rgba(0,0,0,.8);
 	text-decoration: none;
