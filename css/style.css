@@ -854,7 +854,6 @@ body.about-cht::after,body.about-cht::before{
 	cursor: pointer;
 	box-shadow: 0 1px 3px rgba(0,0,0,.8);
 	text-decoration: none;
-	font-weight: bold;
 }
 
 .redeembtn a:nth-of-type(2) {
