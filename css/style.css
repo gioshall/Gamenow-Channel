@@ -847,9 +847,9 @@ body.about-cht::after,body.about-cht::before{
 	border-radius: 5px;
 	background-color: #41b111;
 	color: #fff;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 50px;
-	width: 180px;
+	width: 200px;
 	font-family: helvetica,'Hiragino Kaku Gothic ProN W3','微軟正黑體';
 	cursor: pointer;
 	box-shadow: 0 1px 3px rgba(0,0,0,.8);

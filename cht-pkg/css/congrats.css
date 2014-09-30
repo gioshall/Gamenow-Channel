@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+	background: #093f65 url(../img/congrats-bg.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+.header {
+	background-color: transparent;
+}
+
+.title-congrats {
+	text-align: center;
+	color: #fff;
+	border-bottom: 3px #fff solid;
+	width: 700px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.title-congrats h2 {
+	font-size: 53px;
+	line-height: 70px;
+}
+
+.title-congrats div {
+	font-size: 26px;
+
+}
