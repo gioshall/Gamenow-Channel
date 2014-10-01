@@ -3,6 +3,7 @@
 body {
 	background: #093f65 url(../img/congrats-bg.jpg) top center no-repeat;
 	background-size: cover;
+	text-align: center;
 }
 
 .header {
@@ -15,15 +16,127 @@ body {
 	border-bottom: 3px #fff solid;
 	width: 700px;
 	margin: auto;
-	padding: 20px 0;
+	padding: 20px 0 30px;
 }
 
 .title-congrats h2 {
 	font-size: 53px;
-	line-height: 70px;
+	line-height: 90px;
 }
 
 .title-congrats div {
 	font-size: 26px;
+}
 
+.title-congrats ul li {
+	display: inline-block;
+	font-size: 27px;
+	font-weight: bold;
+	margin: 0;
+	height: 15px;
+}
+
+.title-congrats ul li.slg {
+	width: 130px;
+	text-align: center;
+	position: relative;
+	top: -7px;
+}
+
+.title-congrats ul li.bdr {
+	border-top: 3px #fff solid;
+	width: 285px;
+}
+
+ul.game-cover li {
+	display: inline-block;
+	margin-top: 100px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	width: 175px;
+}
+
+ul.game-cover img{
+	width: 140px;
+	height: auto;
+	margin: auto;
+	display: block;
+	box-shadow: 0 0 3px rgba(0,0,0,.8);
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(70%,transparent), color-stop(100%,rgba(0,0,0,0.3)));
+}
+
+ul.game-cover span {
+	position: relative;
+	z-index: 1;
+}
+
+.app-donload {
+	position: relative;
+	z-index: 5;
+	width: 700px;
+	margin: 120px auto 0;
+	color: #fff;
+}
+
+.app-donload h2 {
+	font-size: 40px;
+	line-height: 110px;
+	font-weight: bold;
+}
+
+.app-donload h2 img {
+	float: left;
+	margin-right: 10px;
+}
+
+.app-donload .store {
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+}
+
+.app-donload .store-apple, .app-donload .store-android {
+	width: 365px;
+	height: 114px;
+	display: block;
+	background-color: #073352;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.app-donload .store-apple {
+	margin-bottom: 5px;
+}
+
+
+.app-donload .store-hami {
+	background-color: #073352;
+	overflow: hidden;
+	border-radius: 5px;
+	width: 330px;
+	height: 233px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.app-donload .store-hami .qrcode {
+	margin-top: 25px;
+}
+
+.app-donload .store-apple img, .app-donload .store-android img {
+	width: 100%;
+	height: 100%;
+}
+
+.bottom-phone {
+	max-width: 100%;
+	margin: -200px auto -56px
+}
+
+.footer {
+	background-color: rgba(7,50,80,.9);
+	margin-top: 0;
 }
