@@ -15,7 +15,7 @@ body {
 	color: #fff;
 	border-bottom: 3px #fff solid;
 	width: 700px;
-	margin: auto;
+	margin: 100px auto 80px;
 	padding: 20px 0 30px;
 }
 
@@ -55,7 +55,7 @@ ul.game-cover li {
 	font-size: 16px;
 	line-height: 30px;
 	text-align: center;
-	width: 175px;
+	width: 160px;
 }
 
 ul.game-cover img{
