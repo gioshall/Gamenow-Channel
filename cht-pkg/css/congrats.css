@@ -1,9 +1,18 @@
 @charset "utf-8";
 
 body {
-	background: #093f65 url(../img/congrats-bg.jpg) top center no-repeat;
-	background-size: cover;
+	background: #093f65;
 	text-align: center;
+}
+
+.bg-ray {
+	background: #093f65 url(../img/congrats-bg.jpg) top center no-repeat;
+	background-size: 100% auto;
+	height: 750px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 
 .header {
@@ -17,6 +26,8 @@ body {
 	width: 700px;
 	margin: 100px auto 80px;
 	padding: 20px 0 30px;
+	position: relative;
+	z-index: 1;
 }
 
 .title-congrats h2 {
@@ -46,6 +57,13 @@ body {
 .title-congrats ul li.bdr {
 	border-top: 3px #fff solid;
 	width: 285px;
+}
+
+ul.game-cover {
+	background: -webkit-linear-gradient(top, rgba(9,63,101,0) 10%,rgba(9,63,101,1) 90%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, rgba(9,63,101,0) 10%,rgba(9,63,101,1) 90%); /* W3C */
+	position: relative;
+	z-index: 1;
 }
 
 ul.game-cover li {
