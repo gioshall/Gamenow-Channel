@@ -5,6 +5,33 @@ body {
 	text-align: center;
 }
 
+.header .logo ,.header .logo-cht {
+	background: transparent \9;
+}
+
+.header .logo .logo-ie8 {
+  width: 345px;
+  height: 55px;
+  display: none;
+  display: block \9;
+}
+
+.header .logo-cht .logo-cht-ie8 {
+  width: 235px;
+  height: 60px;
+  display: none;
+  display: block \9;
+}
+
+.bg-ie8 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: none;
+    display: block \9;
+}
+
 .bg-ray {
 	background: #093f65 url(../img/congrats-bg.jpg) top center no-repeat;
 	background-size: 100% auto;
@@ -13,6 +40,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
+	background: transparent \9;
 }
 
 .header {
@@ -155,6 +183,7 @@ ul.game-cover span {
 }
 
 .footer {
+	background-color: #073352;
 	background-color: rgba(7,50,80,.9);
 	margin-top: 0;
 }
