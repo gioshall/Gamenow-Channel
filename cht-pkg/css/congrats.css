@@ -158,3 +158,130 @@ ul.game-cover span {
 	background-color: rgba(7,50,80,.9);
 	margin-top: 0;
 }
+
+
+@media screen and (max-width: 1180px) {
+	ul.game-cover img {
+		width: 120px;
+	}
+
+	ul.game-cover li {
+		width: 130px;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+    .bg-ray {
+    	background-position: center -100px
+     }
+
+	ul.game-cover li {
+		width: 170px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 710px) {
+    .title-congrats {
+	    width: 550px;
+    }
+
+    .title-congrats ul li.bdr {
+        width: 210px;
+    }
+
+    .title-congrats h2 {
+        font-size: 42px;
+    }
+
+    .title-congrats div {
+        font-size: 21px;
+    }
+
+    .app-donload {
+    	width: 550px;
+    	margin-top: 50px;
+    }
+
+    .app-donload h2 {
+    	font-size: 29px;
+    }
+
+    .app-donload .store {
+    	margin-top: 10px;
+    }
+
+    .app-donload .store-hami .qrcode {
+    	display: none;
+    }
+
+    .app-donload .store-apple, .app-donload .store-android ,.app-donload .store-hami {
+    	width: 100%;
+    	height: 100px;
+    }
+
+    .app-donload .store-apple img , .app-donload .store-android img {
+    	width: auto
+    }
+
+    .app-donload .store-hami {
+    	position: relative;
+    	display: block;
+    	margin-top: 5px;
+    	margin-bottom: 50px;
+    }
+
+    .app-donload .store-hami img {
+    	margin-top: 18px;
+    }
+
+    .bottom-phone {
+    	display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+	.bg-ray {
+    	background-position: center 0px
+     }
+
+	.title-congrats {
+	    width: 350px;
+    }
+
+    .title-congrats ul li.bdr {
+        width: 110px;
+    }
+
+    .title-congrats h2 {
+        font-size: 26px;
+        line-height: 55px;
+    }
+
+    .title-congrats div {
+        font-size: 13px;
+    }
+
+    ul.game-cover img {
+		width: 120px;
+	}
+
+	ul.game-cover li {
+		width: 120px;
+		font-size: 13px;
+	}
+
+	.app-donload {
+    	width: 350px;
+    	margin-top: 20px;
+    }
+
+    .app-donload h2 {
+    	font-size: 25px;
+    	text-align: left;
+    	line-height: 55px;
+    }
+}
