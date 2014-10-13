@@ -242,27 +242,43 @@ ul.game-cover span {
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 568px){
+	.bg-ray {
+    	background-position: center -50px
+    }
 
+	ul.game-cover li {
+		width: 135px;
+		font-size: 13px;
+	}
+}
+
+
+@media screen and (max-width: 360px){
 	.bg-ray {
     	background-position: center 0px
-     }
+    }
 
 	.title-congrats {
-	    width: 350px;
+	    width: 310px;
     }
 
     .title-congrats ul li.bdr {
-        width: 110px;
+        width: 90px;
+    }
+
+    .title-congrats {
+    	margin: 50px auto 20px;
     }
 
     .title-congrats h2 {
-        font-size: 26px;
+        font-size: 23px;
         line-height: 55px;
     }
 
     .title-congrats div {
         font-size: 13px;
+        letter-spacing: -1px
     }
 
     ul.game-cover img {
@@ -270,18 +286,22 @@ ul.game-cover span {
 	}
 
 	ul.game-cover li {
-		width: 120px;
-		font-size: 13px;
+		width: 150px;
+		font-size: 15px;
 	}
 
 	.app-donload {
-    	width: 350px;
-    	margin-top: 20px;
+    	width: 310px;
+    	margin-top: 50px;
+    }
+
+    .app-donload h2 img {
+    	width: 80px;
     }
 
     .app-donload h2 {
-    	font-size: 25px;
+    	font-size: 24px;
     	text-align: left;
-    	line-height: 55px;
+    	line-height: 40px;
     }
 }
