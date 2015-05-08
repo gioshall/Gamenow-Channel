@@ -480,7 +480,8 @@ body::before{
   .footer-covers{
 	width: 100%;
 	position: absolute;
-	bottom: 300px;
+	bottom: 0px;
+	z-index: 100;
    }
 
   .footer{
@@ -617,7 +618,7 @@ body::before{
 	background-position: 100px 12px
   }
   .footer-covers{
-	bottom: 285px;
+	bottom: 300px;
   }
 }
 
